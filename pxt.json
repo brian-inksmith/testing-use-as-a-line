@@ -1,0 +1,27 @@
+{
+    "name": "testing use as a line",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microbit-screen-as-a-line": "github:pelikhan/microbit-screen-as-a-line#v0.0.2",
+        "cak": "github:dugbraden/pxt-climate-action-kit#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.9",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
